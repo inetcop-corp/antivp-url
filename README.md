@@ -21,13 +21,13 @@ APK 안에 **평문으로 적힌 URL**을 정규식으로 추출하는 스크립
 
 ```bash
 # 단일 APK
-python apk_urls.py app.apk
+python ext_url_in_apk.py app.apk
 
 # 디렉터리 하위의 모든 .apk 재귀 탐색
-python apk_urls.py ./samples
+python ext_url_in_apk.py ./samples
 
 # 결과를 JSON 파일로 저장
-python apk_urls.py ./samples -o out.json
+python ext_url_in_apk.py ./samples -o out.json
 ```
 
 ### 인자 / 옵션
