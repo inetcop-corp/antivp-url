@@ -1,4 +1,4 @@
-# apk-urls
+# Voice Phishing APK URL Extractor
 
 APK 안에 **평문으로 적힌 URL**을 정규식으로 추출하는 스크립트입니다.
 보이스피싱 등 악성앱 정적 분석에서 C2 서버·피싱 도메인 같은 흔적을 1차로 수집하는 용도로 쓸 수 있습니다.
